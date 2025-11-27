@@ -23,23 +23,48 @@ Generate stunning AI content with 6 powerful features optimized for NVIDIA RTX 3
 
 ## 🚀 Quick Start
 
-### One-Command Setup
+### ⚡ One-Command Deployment (FREE!)
+```bash
+# Complete free deployment to cloud
+./deploy-free-complete.sh
+```
+
+**Or for local development:**
 ```bash
 chmod +x setup.sh && ./setup.sh
 ```
 
-That's it! The script will:
-- ✅ Check prerequisites
-- ✅ Install dependencies
-- ✅ Start all services
-- ✅ Initialize database
-- ✅ Verify installation
+### 🆓 Free Cloud Deployment Options
 
-### Manual Setup
+**Option 1: Complete Free Setup (Recommended)**
+```bash
+./deploy-free-complete.sh  # Linux/Mac
+.\deploy.ps1               # Windows
+```
+- Railway.app (API) - Free
+- MongoDB Atlas - Free
+- Upstash Redis - Free
+- Cloudflare R2 - Free
+- Your GPU (Local) - Free
+- **Total: $0/month**
+
+**Option 2: Railway Only**
+```bash
+./deploy-railway.sh
+```
+
+**Option 3: Render.com**
+```bash
+./deploy-render.sh
+```
+
+See [DEPLOY_NOW.md](DEPLOY_NOW.md) for detailed deployment guide.
+
+### Manual Local Setup
 ```bash
 # 1. Clone repository
-git clone <your-repo>
-cd ai-creative-studio-backend
+git clone https://github.com/sharmaji2007/ai-advance-level-studio-.git
+cd ai-advance-level-studio-
 
 # 2. Configure environment
 cp .env.example .env
